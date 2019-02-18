@@ -25,8 +25,10 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Needs to inherit FeedController and define two properties and two methods. 
-For example Rss
+Needs to inherit FeedController. Should be defined dataProvider() and chanel().
+There are ready to use views, but you can make your own.
+Copy views to default place and make changes. 
+For example for RSS:
 ```php
 namespace frontend\controllers;
 
@@ -39,6 +41,12 @@ class RssController extends FeedController
 {
   protected $cacheDuration = 43200;
   protected $cacheFilename = 'rss.xml';
+  public function init() {
+    parent::init();
+    // viewPath by default is '@frontend/views/rss'
+    // copy from '@vendor/sergmoro1/yii2-feed/src/views/rss' and change by your own
+    $this->setViewPath('@vendor/sergmoro1/yii2-feed/src/views/rss');
+  }
   public function dataProvider()
   {
     return new ActiveDataProvider([
