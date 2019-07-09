@@ -25,7 +25,8 @@ to the require section of your `composer.json` file.
 Needs to inherit FeedController. Should be defined dataProvider() and chanel().
 There are ready to use views, but you can make your own.
 Copy views to default place and make changes. 
-For example for RSS:
+
+For example for RSS.
 
 ```php
 namespace frontend\controllers;
@@ -62,7 +63,7 @@ class RssController extends FeedController
     {
         return [
             'title' => Yii::$app->name,
-            'description' => 'Notes, code examples. WordPress, Yii.',
+            'description' => 'Notes, code examples. Yii, WordPress.',
             'link' => Url::toRoute('/', true),
             'language' => Yii::$app->language,
             'image' => [
