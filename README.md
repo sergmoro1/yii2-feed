@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist sergmoro1/yii2-feed "*"
+php composer.phar require --prefer-dist sergmoro1/yii2-feed
 ```
 
 or add
 
 ```
-"sergmoro1/yii2-feed": "*"
+"sergmoro1/yii2-feed": "~1.0"
 ```
 
 to the require section of your `composer.json` file.
