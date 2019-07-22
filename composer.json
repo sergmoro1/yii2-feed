@@ -10,6 +10,7 @@
             "email": "sergmoro1@ya.ru"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },

@@ -1,8 +1,10 @@
-#Xml feed renderer 
+Yii2 xml feed renderer
+====================== 
 
-RSS or any other feed.
+RSS or any other feed like yandex turbo-pages.
 
-##Installation
+Installation
+------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -20,7 +22,8 @@ or add
 
 to the require section of your `composer.json` file.
 
-##Usage
+Usage
+-----
 
 Needs to inherit FeedController. Should be defined dataProvider() and chanel().
 There are ready to use views, but you can make your own.
