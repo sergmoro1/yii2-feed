@@ -62,6 +62,7 @@ class RssController extends \sergmoro1\feed\controllers\RssController
         return [
             'title' => Yii::$app->name,
             'description' => 'Programmer\'s notes, code examples. WordPress, Yii.',
+            'description' => 'Notes, code examples. Yii, WordPress.',
             'link' => Url::toRoute('/', true),
             'language' => Yii::$app->language,
             'image' => [
