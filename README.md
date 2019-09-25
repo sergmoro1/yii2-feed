@@ -17,7 +17,11 @@ php composer.phar require --prefer-dist sergmoro1/yii2-feed
 or add
 
 ```
+<<<<<<< HEAD
 "sergmoro1/yii2-feed": "dev-master"
+=======
+"sergmoro1/yii2-feed": "~1.0"
+>>>>>>> b888f8982bdd2abcd303897c227986918cb796fd
 ```
 
 to the require section of your `composer.json` file.
