@@ -1,0 +1,22 @@
+{
+    "name": "sergmoro1/yii2-feed",
+    "description": "Xml feed renderer.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," feed"," rss", "xml"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Morozov",
+            "email": "sergmoro1@ya.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sergmoro1\\feed\\": "src"
+        }
+    }
+}
